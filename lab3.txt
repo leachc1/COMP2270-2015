@@ -63,7 +63,7 @@ int sum(int length, int *array) {
 ASSEMBLY
 0 MOV R1, 0x01
 1 MOV R2, 0x00
-2 STOR R3, 0x80
+2 LOAD R3, 0x80
 3 MOV R4, 0x81
 4 JZL R3, 0x0b
 5 ADD R5, R4, R0
@@ -77,11 +77,11 @@ ASSEMBLY
 MACHINE
 0 7101
 1 7200
-2 e380
+2 c380
 3 7481
 4 b30b
 5 0540
-6 d5xx
+6 d500
 7 0225
 8 0441
 9 1331
