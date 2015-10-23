@@ -1,0 +1,16 @@
+
+
+Sequential design:
+1a. How many bits for state will you need?
+1b. How many input bits will you need?
+2. Then, map states to bits, and map inputs to bits.
+3. Write out a state-transition table.
+4. Finally, program a ROM to do said thing.
+
+Vending machine
+6 States: 0, 5, 10, 15, 20 25
+1a. How many bits for state will you need? 6 bits, 2^3=8
+1b. How many input bits will you need? Nickel, dime quarter (3) 2^2=4
+2. Then, map states to bits, and map inputs to bits.
+3. Write out a state-transition table. Since 25 cents is the final state, what happens if we get extra currency? Or, what happens if we get foreign currency? Feel free to transition to a "bogus" state (or states) for these purposes.
+4. Finally, use a ROM to implement said thing.
